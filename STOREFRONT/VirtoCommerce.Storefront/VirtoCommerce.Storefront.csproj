@@ -334,8 +334,6 @@
     <Content Include="App_Data\Themes\default\templates\quote-request.liquid">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="App_Data\x64\LibSass.x64.dll" />
-    <Content Include="App_Data\x64\libsassnet.dll" />
     <Content Include="App_Data\x86\LibSass.x86.dll" />
     <Content Include="App_Data\x86\libsassnet.dll" />
     <Content Include="Global.asax" />
@@ -568,6 +566,8 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Common\NoStore.cshtml" />
     <Content Include="Views\Web.config" />
+    <None Include="Properties\PublishProfiles\CeramicAndCraftVirto - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\CeramicAndCraftVirto - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
